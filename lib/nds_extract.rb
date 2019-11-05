@@ -9,6 +9,7 @@ def directors_totals(nds)
     director[:movies].each do |movie|
       movie[:worldwide_gross]
     end
+    
   end
 # # while row_index < directors_database[row_index].count do
      
