@@ -10,7 +10,8 @@ def directors_totals(nds)
     director[:movies].each do |movie|
       total +=  movie[:worldwide_gross]
     end
-    binding.pry hash_names_totals[director[:name]] = total
+   hash_names_totals[director[:name]] = total
+    
   end
   
 # # while row_index < directors_database[row_index].count do
