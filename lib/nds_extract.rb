@@ -23,5 +23,5 @@ def directors_totals(nds)
 #     #end
 #     #hash_names_totals[directors_database[row_index][:name]] = total
 #   end
- 
+ hash_names_totals
 end
