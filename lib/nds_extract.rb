@@ -7,7 +7,7 @@ def directors_totals(nds)
   hash_names_totals = {}
   directors_database.each do |director|
     director[:movies].each do |movie|
-    movie[:worldwide_gross]
+      movie[:worldwide_gross]
     end
   end
 # # while row_index < directors_database[row_index].count do
