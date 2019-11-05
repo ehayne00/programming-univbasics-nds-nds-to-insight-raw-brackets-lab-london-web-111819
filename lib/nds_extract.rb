@@ -3,6 +3,7 @@ require 'directors_database'
 require 'pry'
 
 def directors_totals(nds)
+  binding.pry
   hash_names_totals = {}
   row_index = 0 
   while row_index < directors_database[row_index].count do
