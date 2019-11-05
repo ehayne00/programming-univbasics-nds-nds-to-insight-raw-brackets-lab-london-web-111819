@@ -3,7 +3,7 @@ require 'directors_database'
 require 'pry'
 
 def directors_totals(nds)
-  binding.pry
+  
   hash_names_totals = {}
   directors_database.each do |director|
     total = 0 
